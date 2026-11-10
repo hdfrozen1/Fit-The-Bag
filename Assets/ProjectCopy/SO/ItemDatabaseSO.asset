@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd2d6786651dff459a63c82f4602a30, type: 3}
+  m_Name: ItemDatabaseSO
+  m_EditorClassIdentifier: 
+  allItems:
+  - itemID: chai_nuoc
+    itemName: chai nuoc
+    artwork: {fileID: 21300000, guid: e6980047a67da824b8321954da72e52c, type: 3}
+    shapeData: {fileID: 11400000, guid: bb4672a6625a6a64b9f97a30d4e1e35b, type: 2}
+    mergeTargetID: nap_chai
+    resultItemID: chai_nuoc_moi
+  - itemID: nap_chai
+    itemName: nap chai
+    artwork: {fileID: 0}
+    shapeData: {fileID: 0}
+    mergeTargetID: chai_nuoc
+    resultItemID: chai_nuoc_moi
+  - itemID: chai_nuoc_moi
+    itemName: chai nuoc moi
+    artwork: {fileID: 0}
+    shapeData: {fileID: 0}
+    mergeTargetID: 
+    resultItemID: 
